@@ -76,7 +76,7 @@ By default the plugin send all the content to the app folder :
 * /app/jib-main-class-file: main class
 
 .Default image
-image::jibplugin_default_build.png[Default image,480]
+image::images/jibplugin_default_build.png[Default image,480]
 
 To build a valid image, the following are needed:
 
@@ -94,15 +94,15 @@ Incremental build is validated
 --
 [.left]
 .First image
-image::jibplugin_layers_first_image.png[First image,720]
+image::images/jibplugin_layers_first_image.png[First image,720]
 
 [.left]
 .Second image
-image::jibplugin_layers_second_image.png[Second image,720]
+image::images/jibplugin_layers_second_image.png[Second image,720]
 
 [.left]
 .Third image
-image::jibplugin_layers_third_image.png[Third image, 720]
+image::images/jibplugin_layers_third_image.png[Third image, 720]
 --
 
 ==== Multi-architecture
