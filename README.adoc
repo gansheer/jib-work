@@ -1,8 +1,10 @@
 ifdef::env-github[]
-:note-caption: :heavy_check_mark:
+:note-caption: ✔️
+:warning-caption: ❌
 endif::[]
 ifdef::env-vscode[]
-:note-caption: ✅
+:note-caption: ✔️
+:warning-caption: ❌
 endif::[]
 = Camel-k JIB
 
@@ -11,39 +13,63 @@ endif::[]
 
 == Goal
 
+TODO : ADD explaination on features.
 
-== Synthesis
+The Camel-k build with Spectrum publish strategy is used a source for expected result.
 
+== Result
 
-== Details for each plugin
+[cols="2,1,1,1"]
+|===
+|Plugin |Basic build |Incremental build |Multi-arch build
 
-Sources: 
+|Quarkus Container Extension Jib
+|✔️
+|❌
+|✔️ 
 
-Camel-k with Spectrum publish strategy
+|Jkube Kubernetes Plugin
+|✔️
+|✔️
+|❌
+
+|Jib Maven Plugin
+|✔️
+|✔️
+|✔️ 
+
+|Fabric8 Docker Plugin
+|✔️
+|✔️
+|✔️
+|=== 
+
+== Detail for each plugin
+
 
 ifdef::env-github[]
-== https://raw.githubusercontent.com/gansheer/jib-work/main/quarkusjibextension.adoc:[Jib maven plugins]
+=== https://github.com/gansheer/jib-work/blob/main/quarkusjibextension.adoc:[Quarkus Container Extension Jib]
 endif::[]
 ifdef::env-vscode[]
 include::quarkusjibextension.adoc[]
 endif::[]
 
 ifdef::env-github[]
-== https://raw.githubusercontent.com/gansheer/jib-work/main/jkubekubernetesplugin.adoc[Jkube Kubernetes Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/jkubekubernetesplugin.adoc[Jkube Kubernetes Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::jkubekubernetesplugin.adoc[]
 endif::[]
 
 ifdef::env-github[]
-== https://raw.githubusercontent.com/gansheer/jib-work/main/jibplugin.adoc[Jib Maven Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/jibplugin.adoc[Jib Maven Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::jibplugin.adoc[]
 endif::[]
 
 ifdef::env-github[]
-== https://raw.githubusercontent.com/gansheer/jib-work/main/fabric8dockerplugin.adoc[Fabric8 Docker Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/fabric8dockerplugin.adoc[Fabric8 Docker Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::fabric8dockerplugin.adoc[]

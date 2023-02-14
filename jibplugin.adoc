@@ -1,8 +1,10 @@
 ifdef::env-github[]
-:note-caption: :heavy_check_mark:
+:note-caption: ✔️
+:warning-caption: ❌
 endif::[]
 ifdef::env-vscode[]
-:note-caption: ✅
+:note-caption: ✔️
+:warning-caption: ❌
 endif::[]
 === Jib maven plugin
 
