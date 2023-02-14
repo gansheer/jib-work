@@ -30,7 +30,7 @@ The Camel-k build with Spectrum publish strategy is used a comparative source fo
 |Plugin |Basic build |Incremental build |Multi-arch build
 
 |**Quarkus Container Extension Jib** (quarkus platform version)
-|✔️
+|❌
 |❌
 |✔️ 
 
