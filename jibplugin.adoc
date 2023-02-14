@@ -83,6 +83,10 @@ To build a valid image, the following are needed:
 * the extra directories to send all the `context`` content as it is in `deployments/dependencies`
 * the https://github.com/GoogleContainerTools/jib-extensions/tree/master/first-party/jib-layer-filter-extension-maven:[Layer-Filter Extension] to remove the `app` folder
 
+The maven command used is "jib:build". An example would be :
+```sh
+mvn -e jib:build -Dmaven.repo.local=/tmp/artifacts/m2 --global-settings /tmp/kit-cfkvvqjdm89s73c9irb0-351212210/maven/settings.xml -Dmaven.artifact.threads=12 -T 12
+```
 
 ==== Incremental build
 
