@@ -60,28 +60,28 @@ What still needs to be tested:
 
 
 ifdef::env-github[]
-=== https://github.com/gansheer/jib-work/blob/main/quarkusjibextension.adoc:[Quarkus Container Extension Jib]
+=== https://github.com/gansheer/jib-work/blob/main/quarkusjibextension.adoc[Quarkus Container Extension Jib]
 endif::[]
 ifdef::env-vscode[]
 include::quarkusjibextension.adoc[]
 endif::[]
 
 ifdef::env-github[]
-=== https://github.com/gansheer/jib-work/blob/main/jkubekubernetesplugin.adoc:[Jkube Kubernetes Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/jkubekubernetesplugin.adoc[Jkube Kubernetes Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::jkubekubernetesplugin.adoc[]
 endif::[]
 
 ifdef::env-github[]
-=== https://github.com/gansheer/jib-work/blob/main/jibplugin.adoc:[Jib Maven Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/jibplugin.adoc[Jib Maven Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::jibplugin.adoc[]
 endif::[]
 
 ifdef::env-github[]
-=== https://github.com/gansheer/jib-work/blob/main/fabric8dockerplugin.adoc:[Fabric8 Docker Plugin]
+=== https://github.com/gansheer/jib-work/blob/main/fabric8dockerplugin.adoc[Fabric8 Docker Plugin]
 endif::[]
 ifdef::env-vscode[]
 include::fabric8dockerplugin.adoc[]
