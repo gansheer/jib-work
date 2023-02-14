@@ -15,16 +15,36 @@ endif::[]
 == Synthesis
 
 
+== Details for each plugin
+
 Sources: 
 
 Camel-k with Spectrum publish strategy
 
-== Jib maven plugins
-
+ifdef::env-github[]
+== https://raw.githubusercontent.com/gansheer/jib-work/main/quarkusjibextension.adoc:[Jib maven plugins]
+endif::[]
+ifdef::env-vscode[]
 include::quarkusjibextension.adoc[]
+endif::[]
 
+ifdef::env-github[]
+== https://raw.githubusercontent.com/gansheer/jib-work/main/jkubekubernetesplugin.adoc[Jkube Kubernetes Plugin]
+endif::[]
+ifdef::env-vscode[]
 include::jkubekubernetesplugin.adoc[]
+endif::[]
 
+ifdef::env-github[]
+== https://raw.githubusercontent.com/gansheer/jib-work/main/jibplugin.adoc[Jib Maven Plugin]
+endif::[]
+ifdef::env-vscode[]
 include::jibplugin.adoc[]
+endif::[]
 
+ifdef::env-github[]
+== https://raw.githubusercontent.com/gansheer/jib-work/main/fabric8dockerplugin.adoc[Fabric8 Docker Plugin]
+endif::[]
+ifdef::env-vscode[]
 include::fabric8dockerplugin.adoc[]
+endif::[]
