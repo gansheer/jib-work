@@ -13,36 +13,48 @@ endif::[]
 
 == Goal
 
-TODO : ADD explaination on features.
+The goal of this work is to test the jib maven plugins available in the context of camel-k's building of the integration kit container images.
 
-The Camel-k build with Spectrum publish strategy is used a source for expected result.
+What is expected from the plugin is:
 
-== Result
+* to be able to build a container image containing the content from the /tmp/kit-xxxxxx-yyyyy/context instead of the default target folder
+* to be able to build incrementally the container images between multiple integration kits by having some influence on layer build
+* to be able to build the container image for different architectures (linux/am64, linux/arm64, etc)
+
+The Camel-k build with Spectrum publish strategy is used a comparative source for expected result.
+
+== Results
 
 [cols="2,1,1,1"]
 |===
 |Plugin |Basic build |Incremental build |Multi-arch build
 
-|Quarkus Container Extension Jib
+|**Quarkus Container Extension Jib** (quarkus platform version)
 |✔️
 |❌
 |✔️ 
 
-|Jkube Kubernetes Plugin
+|**Jkube Kubernetes Plugin** (1.10.1)
 |✔️
 |✔️
 |❌
 
-|Jib Maven Plugin
+|**Jib Maven Plugin** (3.3.1, with 0.3.0 for the filter exention)
 |✔️
 |✔️
 |✔️ 
 
-|Fabric8 Docker Plugin
+|**Fabric8 Docker Plugin** (0.41.0)
 |✔️
 |✔️
 |✔️
 |=== 
+
+
+What still needs to be tested:
+
+* native build
+
 
 == Detail for each plugin
 
