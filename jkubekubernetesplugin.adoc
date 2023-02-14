@@ -1,0 +1,3 @@
+=== Jkube Kubernetes Plugin
+
+https://www.eclipse.org/jkube/docs/kubernetes-maven-plugin/

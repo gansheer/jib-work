@@ -1,0 +1,3 @@
+=== Fabric8 docker plugin
+
+https://dmp.fabric8.io/

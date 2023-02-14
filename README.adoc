@@ -1,0 +1,30 @@
+ifdef::env-github[]
+:note-caption: :heavy_check_mark:
+endif::[]
+ifdef::env-vscode[]
+:note-caption: ✅
+endif::[]
+= Camel-k JIB
+
+:sectnums:
+:sectnumlevels: 2
+
+== Goal
+
+
+== Synthesis
+
+
+Sources: 
+
+Camel-k with Spectrum publish strategy
+
+== Jib maven plugins
+
+include::quarkusjibextension.adoc[]
+
+include::jkubekubernetesplugin.adoc[]
+
+include::jibplugin.adoc[]
+
+include::fabric8dockerplugin.adoc[]

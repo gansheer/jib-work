@@ -1,0 +1,3 @@
+=== Quarkus Container Extension Jib
+
+https://quarkus.io/guides/container-image
