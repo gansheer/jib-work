@@ -43,15 +43,15 @@ Incremental build is not good enought. Each build add the full target/lib folder
 --
 [.left]
 .First image
-image::images/jkubejib_layers_first_image.png[First image,720]
+image::images/quarkusext_layers_first_image.png[First image,720]
 
 [.left]
 .Second image
-image::images/jkubejib_layers_second_image.png[Second image,720]
+image::images/quarkusext_layers_second_image.png[Second image,720]
 
 [.left]
 .Third image
-image::images/jkubejib_layers_third_image.png[Third image, 720]
+image::images/quarkusext_layers_third_image.png[Third image, 720]
 --
 
 ==== Multi-architecture
