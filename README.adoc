@@ -17,11 +17,13 @@ The goal of this work is to test the jib maven plugins available in the context 
 
 What is expected from the plugin is:
 
-* to be able to build a container image containing the content from the /tmp/kit-xxxxxx-yyyyy/context instead of the default target folder
+* to be able to build a container image containing the content from the `/tmp/kit-xxxxxx-yyyyy/context`` instead of the default target folder
 * to be able to build incrementally the container images between multiple integration kits by having some influence on layer build
 * to be able to build the container image for different architectures (linux/am64, linux/arm64, etc)
 
 The Camel-k build with Spectrum publish strategy is used a comparative source for expected result.
+
+The native build still needs to be tested but in the context of container image build is it also about a runner being made available in `/tmp/kit-xxxxxx-yyyyy/context` after the build phase.
 
 == Results
 
@@ -49,7 +51,6 @@ The Camel-k build with Spectrum publish strategy is used a comparative source fo
 |✔️
 |✔️
 |=== 
-
 
 What still needs to be tested:
 
