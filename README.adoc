@@ -32,7 +32,7 @@ The native build still needs to be tested but in the context of container image 
 |Plugin |Basic build |Incremental build |Multi-arch build
 
 |**Quarkus Container Extension Jib** (quarkus platform version)
-|❌
+|❓
 |❌
 |✔️ 
 
